@@ -1,0 +1,39 @@
+.swiper {
+    width: 815px;
+}
+
+.swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    left: 0;
+    display: none;
+}
+
+.swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    right: 0;
+    display: none;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.swiper:hover>.swiper-button-prev,
+.swiper:hover>.swiper-button-next {
+    display: flex;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+.floating {
+    position: fixed;
+    right: 100px;
+    bottom: 20px;
+}
